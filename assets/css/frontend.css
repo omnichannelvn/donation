@@ -1,0 +1,7 @@
+.donation-table-wrapper { overflow: hidden; }
+.donation-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+.donation-table th, .donation-table td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+.donation-table th { background-color: #4CAF50; color: white; }
+.donation-table td { pointer-events: none; user-select: none; }
+.donation-table tbody tr { display: none; }
+.donation-table tbody tr.active { display: table-row; }

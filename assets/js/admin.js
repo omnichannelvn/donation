@@ -1,0 +1,1 @@
+jQuery($ => { if ($('.wrap h1').text().includes('Donation')) console.log('Admin loaded'); });

@@ -8,7 +8,7 @@ function donation_is_license_valid() {
         $license = lmfwc_get_license($license_key);
         if ($license && $license->is_valid()) {
             $domain = parse_url(home_url(), PHP_URL_HOST);
-            $response = wp_remote_get("https://api.phpmylicense.com/verify?key=$license_key&domain=$domain", [
+            $response = wp_remote_get("https://lic.phpmylicense.com/verify?key=$license_key&domain=$domain", [
                 'timeout' => 15,
                 'headers' => ['Authorization' => 'Bearer ' . hash('sha256', $license_key . DONATION_VERSION)]
             ]);

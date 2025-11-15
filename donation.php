@@ -3,7 +3,7 @@
 Plugin Name: Donation
 Description: Quyên góp ủng hộ
 Version: 1.0.1
-Author: John Wick and Grok3
+Author: John Wick
 Author URI: https://dev.omni-channel.vn
 Plugin URI: https://groupcharming.com
 License: GPL2

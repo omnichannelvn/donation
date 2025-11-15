@@ -42,7 +42,7 @@ function donation_admin_page() {
                     <th><label>License Key</label></th>
                     <td>
                         <input type="text" name="license_key" value="<?php echo esc_attr($license_key); ?>" class="regular-text">
-                        <p class="description">Get your key from <a href="https://api.phpmylicense.com/">PHPMyLicense</a>.</p>
+                        <p class="description">Get your key from <a href="https://lic.phpmylicense.com/">PHPMyLicense</a>.</p>
                     </td>
                 </tr>
                 <tr>
